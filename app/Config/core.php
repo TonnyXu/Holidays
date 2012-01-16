@@ -183,13 +183,11 @@
 
 /**
  * A random string used in security hashing methods.
- */
-	Configure::write('Security.salt', 'DhG93b0qyJfIxfs2guVoUubtWwvniR2G0FgaC9mi');
+ */	Configure::write('Security.salt', 'eef3893ca11503cc5422e53e1dab7dd375cf642d');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
- */
-	Configure::write('Security.cipherSeed', '76859309657453542496783645');
+ */	Configure::write('Security.cipherSeed', '643663383239336461613763626631');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
@@ -240,8 +238,8 @@
  *
  * 	 Cache::config('default', array(
  *		'engine' => 'File', //[required]
- *		'duration'=> 3600, //[optional]
- *		'probability'=> 100, //[optional]
+ *		'duration' => 3600, //[optional]
+ *		'probability' => 100, //[optional]
  * 		'path' => CACHE, //[optional] use system tmp directory - remember to use absolute path
  * 		'prefix' => 'cake_', //[optional]  prefix every cache file with this string
  * 		'lock' => false, //[optional]  use file locking
@@ -252,8 +250,8 @@
  *
  * 	 Cache::config('default', array(
  *		'engine' => 'Apc', //[required]
- *		'duration'=> 3600, //[optional]
- *		'probability'=> 100, //[optional]
+ *		'duration' => 3600, //[optional]
+ *		'probability' => 100, //[optional]
  * 		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional]  prefix every cache file with this string
  *	));
  *
@@ -261,19 +259,19 @@
  *
  * 	 Cache::config('default', array(
  *		'engine' => 'Xcache', //[required]
- *		'duration'=> 3600, //[optional]
- *		'probability'=> 100, //[optional]
+ *		'duration' => 3600, //[optional]
+ *		'probability' => 100, //[optional]
  *		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional] prefix every cache file with this string
  *		'user' => 'user', //user from xcache.admin.user settings
  *		'password' => 'password', //plaintext password (xcache.admin.pass)
  *	));
  *
- * Memcache (http://memcached.org/)
+ * Memcache (http://www.danga.com/memcached/)
  *
  * 	 Cache::config('default', array(
  *		'engine' => 'Memcache', //[required]
- *		'duration'=> 3600, //[optional]
- *		'probability'=> 100, //[optional]
+ *		'duration' => 3600, //[optional]
+ *		'probability' => 100, //[optional]
  * 		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional]  prefix every cache file with this string
  * 		'servers' => array(
  * 			'127.0.0.1:11211' // localhost, default port 11211
@@ -286,8 +284,8 @@
  *
  * 	 Cache::config('default', array(
  *		'engine' => 'Wincache', //[required]
- *		'duration'=> 3600, //[optional]
- *		'probability'=> 100, //[optional]
+ *		'duration' => 3600, //[optional]
+ *		'probability' => 100, //[optional]
  *		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional]  prefix every cache file with this string
  *	));
  */

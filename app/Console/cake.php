@@ -30,7 +30,7 @@ foreach ($paths as $path) {
 
 if (!$found && function_exists('ini_set')) {
 	$root = dirname(dirname(dirname(__FILE__)));
-	ini_set('include_path', $root . $ds. 'lib' . PATH_SEPARATOR . ini_get('include_path'));
+	ini_set('include_path',  $ds . 'Users' . $ds . 'tonny' . $ds . 'Development' . $ds . 'Learning_iPhone_Mac' . $ds . 'MyGithub(iPhone+Mac)' . $ds . 'Holidays' . $ds . 'cakephp' . $ds . 'lib' . PATH_SEPARATOR . ini_get('include_path'));
 }
 
 if (!include($dispatcher)) {
