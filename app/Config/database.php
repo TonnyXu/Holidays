@@ -15,7 +15,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'api-test-db.totodotnet.net',
 		'login' => 'tonny_api_user',
-		'password' => '&7YuHjNm',
+		'password' => 'api_&7YuHjNm',
 		'database' => 'totodotnet_holidays_test',
 		'encoding' => 'utf8'
 	);
@@ -24,7 +24,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'api-db.totodotnet.net',
 		'login' => 'tonny_api_user',
-		'password' => '&7YuHjNm',
+		'password' => 'api_&7YuHjNm',
 		'database' => 'totodotnet_holidays',
 		'encoding' => 'utf8'
 	);
