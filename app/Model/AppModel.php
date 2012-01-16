@@ -40,7 +40,7 @@ class AppModel extends Model {
   function getDbConfig() {
 
     $host = env('server_name');
-    if ($host == 'api-test.totodotnet.net') 
+    if ($host == 'php-api-test.totodotnet.net') 
     {
       return 'test';
     }
